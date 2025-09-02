@@ -1,0 +1,38 @@
+# 给工作流起一个名字
+name: CD - Build and Push Docker Image
+
+# 1. 定义触发器
+# 这次，我们只在代码被push到 'main' 分支时才触发
+on:
+  push:
+    branches: [ "main" ]
+
+# 2. 定义任务
+jobs:
+  build-and-push:
+    # 同样在Ubuntu虚拟服务器上运行
+    runs-on: ubuntu-latest
+
+    # 3. 定义步骤
+    steps:
+      # 第一步：检出代码
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      # 第二步：登录到Docker Hub
+      # 这一步会安全地使用我们之前在GitHub Secrets中设置的用户名和令牌
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # 第三步：构建并推送Docker镜像
+      # 这一步会运行 docker build 命令，然后运行 docker push
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          # 镜像的标签格式是：你的DockerHub用户名/仓库名:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/movie-recommender:latest
