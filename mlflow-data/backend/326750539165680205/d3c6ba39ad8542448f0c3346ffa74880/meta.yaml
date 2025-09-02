@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/326750539165680205/d3c6ba39ad8542448f0c3346ffa74880/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '326750539165680205'
+lifecycle_stage: active
+run_id: d3c6ba39ad8542448f0c3346ffa74880
+run_name: gentle-bug-608
+run_uuid: d3c6ba39ad8542448f0c3346ffa74880
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756827044266
+status: 1
+tags: []
+user_id: ubuntu

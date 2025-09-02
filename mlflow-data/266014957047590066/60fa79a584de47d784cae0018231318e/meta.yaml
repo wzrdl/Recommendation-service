@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/266014957047590066/60fa79a584de47d784cae0018231318e/artifacts
+end_time: 1756825490174
+entry_point_name: ''
+experiment_id: '266014957047590066'
+lifecycle_stage: active
+run_id: 60fa79a584de47d784cae0018231318e
+run_name: vaunted-kite-221
+run_uuid: 60fa79a584de47d784cae0018231318e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756825489388
+status: 4
+tags: []
+user_id: ubuntu

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/266014957047590066/b12aa3fd311c4d19a5f8aa43d8e3d046/artifacts
+end_time: 1756824106859
+entry_point_name: ''
+experiment_id: '266014957047590066'
+lifecycle_stage: active
+run_id: b12aa3fd311c4d19a5f8aa43d8e3d046
+run_name: hilarious-colt-862
+run_uuid: b12aa3fd311c4d19a5f8aa43d8e3d046
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756824105861
+status: 4
+tags: []
+user_id: ubuntu

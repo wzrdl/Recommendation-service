@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/326750539165680205/1fee649eedd84a28a21324b2799e88e1/artifacts
+end_time: 1756826550923
+entry_point_name: ''
+experiment_id: '326750539165680205'
+lifecycle_stage: active
+run_id: 1fee649eedd84a28a21324b2799e88e1
+run_name: gaudy-elk-901
+run_uuid: 1fee649eedd84a28a21324b2799e88e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756826549932
+status: 4
+tags: []
+user_id: ubuntu

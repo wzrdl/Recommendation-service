@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/266014957047590066/72d71754df354a1abb8fc95a567c573e/artifacts
+deleted_time: 1756825224655
+end_time: null
+entry_point_name: ''
+experiment_id: '266014957047590066'
+lifecycle_stage: deleted
+run_id: 72d71754df354a1abb8fc95a567c573e
+run_name: angry-wasp-149
+run_uuid: 72d71754df354a1abb8fc95a567c573e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756824882289
+status: 1
+tags: []
+user_id: ubuntu

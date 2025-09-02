@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/326750539165680205/e2f6aa0e6a334e1b821efc61441ca9d3/artifacts
+end_time: 1756827249556
+entry_point_name: ''
+experiment_id: '326750539165680205'
+lifecycle_stage: active
+run_id: e2f6aa0e6a334e1b821efc61441ca9d3
+run_name: aged-croc-809
+run_uuid: e2f6aa0e6a334e1b821efc61441ca9d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756827248785
+status: 3
+tags: []
+user_id: ubuntu

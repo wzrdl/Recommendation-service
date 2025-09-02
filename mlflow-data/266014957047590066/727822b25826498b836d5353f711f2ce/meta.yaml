@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/266014957047590066/727822b25826498b836d5353f711f2ce/artifacts
+end_time: 1756825885624
+entry_point_name: ''
+experiment_id: '266014957047590066'
+lifecycle_stage: active
+run_id: 727822b25826498b836d5353f711f2ce
+run_name: amazing-stag-499
+run_uuid: 727822b25826498b836d5353f711f2ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756825884759
+status: 4
+tags: []
+user_id: ubuntu

@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v2.14.1
+    container_name: mlflow-server
+    ports:
+      - "5000:5000"
+    volumes:
+      # This volume stores the tracking data (metrics, params)
+      - ./mlflow-data/backend:/mlflow/backend
+      # This NEW volume stores the artifacts (the model files)
+      - ./mlflow-data/artifacts:/mlflow/artifacts
+    command: >
+      mlflow server
+      --host 0.0.0.0
+      --port 5000
+      --backend-store-uri file:///mlflow/backend
+      --artifacts-destination file:///mlflow/artifacts

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/326750539165680205/3a00ba3be3024d99b08145381829a06b/artifacts
+end_time: 1756826032625
+entry_point_name: ''
+experiment_id: '326750539165680205'
+lifecycle_stage: active
+run_id: 3a00ba3be3024d99b08145381829a06b
+run_name: sneaky-shrew-793
+run_uuid: 3a00ba3be3024d99b08145381829a06b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756826031592
+status: 4
+tags: []
+user_id: ubuntu

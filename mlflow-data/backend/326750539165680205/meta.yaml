@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/326750539165680205
+creation_time: 1756826031181
+experiment_id: '326750539165680205'
+last_update_time: 1756826031181
+lifecycle_stage: active
+name: Movie Recommender - XGBoost

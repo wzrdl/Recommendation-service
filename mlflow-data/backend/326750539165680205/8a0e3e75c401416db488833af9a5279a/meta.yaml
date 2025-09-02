@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/326750539165680205/8a0e3e75c401416db488833af9a5279a/artifacts
+end_time: 1756826234346
+entry_point_name: ''
+experiment_id: '326750539165680205'
+lifecycle_stage: active
+run_id: 8a0e3e75c401416db488833af9a5279a
+run_name: incongruous-wasp-302
+run_uuid: 8a0e3e75c401416db488833af9a5279a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756826232776
+status: 4
+tags: []
+user_id: ubuntu

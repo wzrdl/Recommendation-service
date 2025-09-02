@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/326750539165680205/6cee41d1e750431b967d59c450bb600e/artifacts
+end_time: 1756826459589
+entry_point_name: ''
+experiment_id: '326750539165680205'
+lifecycle_stage: active
+run_id: 6cee41d1e750431b967d59c450bb600e
+run_name: incongruous-crab-895
+run_uuid: 6cee41d1e750431b967d59c450bb600e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756826458593
+status: 3
+tags: []
+user_id: ubuntu

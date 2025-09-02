@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/326750539165680205/7648c803be194d7c8f585891619e3b53/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '326750539165680205'
+lifecycle_stage: active
+run_id: 7648c803be194d7c8f585891619e3b53
+run_name: nervous-tern-342
+run_uuid: 7648c803be194d7c8f585891619e3b53
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756826876870
+status: 1
+tags: []
+user_id: ubuntu
