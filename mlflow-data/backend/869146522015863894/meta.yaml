@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/869146522015863894
+creation_time: 1756833162170
+experiment_id: '869146522015863894'
+last_update_time: 1756833162170
+lifecycle_stage: active
+name: Movie Recommender - XGBoost Hyperparameter Tuning

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/869146522015863894/68b7d2dfe43248ff931296fb44da28ae/artifacts
+end_time: 1756833783394
+entry_point_name: ''
+experiment_id: '869146522015863894'
+lifecycle_stage: active
+run_id: 68b7d2dfe43248ff931296fb44da28ae
+run_name: entertaining-asp-741
+run_uuid: 68b7d2dfe43248ff931296fb44da28ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756833612448
+status: 3
+tags: []
+user_id: ubuntu

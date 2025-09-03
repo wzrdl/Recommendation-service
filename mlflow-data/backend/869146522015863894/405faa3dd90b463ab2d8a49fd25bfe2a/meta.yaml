@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/869146522015863894/405faa3dd90b463ab2d8a49fd25bfe2a/artifacts
+end_time: 1756833573139
+entry_point_name: ''
+experiment_id: '869146522015863894'
+lifecycle_stage: active
+run_id: 405faa3dd90b463ab2d8a49fd25bfe2a
+run_name: redolent-whale-355
+run_uuid: 405faa3dd90b463ab2d8a49fd25bfe2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756833162541
+status: 4
+tags: []
+user_id: ubuntu

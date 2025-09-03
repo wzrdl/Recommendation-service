@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/869146522015863894/163aa98cb7404951a86b5e4f29f8e05b/artifacts
+end_time: 1756833165300
+entry_point_name: ''
+experiment_id: '869146522015863894'
+lifecycle_stage: active
+run_id: 163aa98cb7404951a86b5e4f29f8e05b
+run_name: shivering-asp-245
+run_uuid: 163aa98cb7404951a86b5e4f29f8e05b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756833162562
+status: 3
+tags: []
+user_id: ubuntu

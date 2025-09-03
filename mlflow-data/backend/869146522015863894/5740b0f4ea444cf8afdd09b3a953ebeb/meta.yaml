@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/869146522015863894/5740b0f4ea444cf8afdd09b3a953ebeb/artifacts
+end_time: 1756833167545
+entry_point_name: ''
+experiment_id: '869146522015863894'
+lifecycle_stage: active
+run_id: 5740b0f4ea444cf8afdd09b3a953ebeb
+run_name: skittish-rat-320
+run_uuid: 5740b0f4ea444cf8afdd09b3a953ebeb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756833165312
+status: 3
+tags: []
+user_id: ubuntu

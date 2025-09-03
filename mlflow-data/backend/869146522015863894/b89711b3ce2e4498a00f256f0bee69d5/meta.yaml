@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/869146522015863894/b89711b3ce2e4498a00f256f0bee69d5/artifacts
+end_time: 1756833612439
+entry_point_name: ''
+experiment_id: '869146522015863894'
+lifecycle_stage: active
+run_id: b89711b3ce2e4498a00f256f0bee69d5
+run_name: invincible-crane-762
+run_uuid: b89711b3ce2e4498a00f256f0bee69d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756833611626
+status: 3
+tags: []
+user_id: ubuntu

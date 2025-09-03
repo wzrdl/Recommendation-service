@@ -1,0 +1,7 @@
+# feature_store.yaml
+project: movie_recommender_repo
+registry: data/registry.db
+provider: local
+online_store:
+    type: redis
+    connection_string: localhost:6379
