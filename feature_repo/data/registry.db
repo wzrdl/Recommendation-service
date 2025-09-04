@@ -1,25 +1,29 @@
 
-L
+K
 ,
-user_id"user_idJmovie_recommender_repo
-œ¯ŞÅàá‰ÓàŞÅ¨‚ßÑ
-N
-.
-movie_id"movie_idJmovie_recommender_repo
-œ¯ŞÅ¨Ù‰ÓàŞÅàşçÑ
+user_id"user_idJmovie_recommender_repo
+œ¯ŞÅàá‰ÓáÅø™Õ
 M
+.
+movie_id"movie_idJmovie_recommender_repo
+œ¯ŞÅ¨Ù‰ÓáÅĞ‘ê
+L
 -
 __dummy"
-__dummy_idJmovie_recommender_repo
-œ¯ŞÅĞ©è‰ÓàŞÅÀÄğÑ1"$bd5c30ae-1df6-4fcd-a97b-6b2f72131c21*ñàŞÅØèô²2Ê
-‘
-ratingsmovie_recommender_repouser_idmovie_id"
-
-rating2€ç„:ªevent_timestamp*createdZ../ml-100k/ratings.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢../ml-100k/ratings.parquet’ÓàŞÅø·Ì"ÓàŞÅØÿ°Ñ@b
-user_idb
-movie_id4
-ÓàŞÅÀã¼ÑñàŞÅØ³Ü²
-ğùÙ¶À¾½¹ìàŞÅbÃevent_timestamp*createdZ../ml-100k/ratings.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢../ml-100k/ratings.parquetªmovie_recommender_repo’ÓàŞÅø·Ì"ÓàŞÅØÿ°ÑŠ8
+__dummy_idJmovie_recommender_repo
+œ¯ŞÅĞ©è‰ÓáÅ¸ò1"$78ef072f-1a69-4bb0-966b-1e01e352d7b3*ÓáÅØúË2·
+–
+user_featuresmovie_recommender_repouser_id"
+user_avg_rating"
+user_rating_count2€ç„:¡event_timestampZ../ml-100k/ratings.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢../ml-100k/ratings.parquet’ÓàŞÅø·Ì"¹ÒáÅ¸ã€º@b
+user_id
+¹ÒáÅˆŸœº¹ÒáÅˆŸœº2¼
+›
+movie_featuresmovie_recommender_repomovie_id"
+movie_avg_rating"
+movie_rating_count2€ç„:¡event_timestampZ../ml-100k/ratings.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢../ml-100k/ratings.parquet’ÓàŞÅø·Ì"¹ÒáÅ¸ã€º@b
+movie_id
+¹ÒáÅ¸Ç³º¹ÒáÅ¸Ç³ºbºevent_timestampZ../ml-100k/ratings.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢../ml-100k/ratings.parquetªmovie_recommender_repo’ÓàŞÅø·Ì"¹ÒáÅ¸ã€ºŠ7
 
-movie_recommender_repo
-œ¯ŞÅ˜»¨şÓàŞÅ¸ÙëÌ
+movie_recommender_repo
+œ¯ŞÅ˜»¨şÓáÅ¨¶

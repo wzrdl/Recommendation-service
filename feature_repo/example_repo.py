@@ -1,29 +1,40 @@
-# example_repo.py (v2 - 使用Parquet)
+# example_repo.py (v3 - Final Aggregated Features)
 from datetime import timedelta
 from feast import Entity, FeatureView, Field, FileSource, ValueType
 from feast.types import Float32, Int64
 
-# 1. 定义数据源，直接指向新的Parquet文件
-# 我们不再需要指定文件格式，因为Parquet是默认的
+# 数据源现在是ratings.parquet，因为它包含了我们需要的事件时间戳
+# 但请注意：Feast不会用这个文件来计算平均值，我们稍后会手动加载这些特征
 ratings_source = FileSource(
-    path="../ml-100k/ratings.parquet", # 指向新的Parquet文件
+    path="../ml-100k/ratings.parquet",
     timestamp_field="event_timestamp",
-    created_timestamp_column="created",
 )
 
-# 2. 定义实体 (保持不变)
+# 定义实体
 user = Entity(name="user_id", value_type=ValueType.INT64)
 movie = Entity(name="movie_id", value_type=ValueType.INT64)
 
-# 3. 定义特征视图 (这里的schema需要和Parquet文件中的列名完全对应)
-# 我们的Parquet文件里没有user_avg_rating, movie_avg_rating这些列
-# 我们先定义一个只包含原始评分的视图
-ratings_fv = FeatureView(
-    name="ratings",
-    entities=[user, movie], # 这个视图同时关联用户和电影
+# 定义用户特征视图
+# 这次我们定义了模型真正需要的聚合特征
+user_features_fv = FeatureView(
+    name="user_features",
+    entities=[user],
     ttl=timedelta(days=365),
     schema=[
-        Field(name="rating", dtype=Int64),
+        Field(name="user_avg_rating", dtype=Float32),
+        Field(name="user_rating_count", dtype=Int64),
+    ],
+    source=ratings_source,
+)
+
+# 定义电影特征视图
+movie_features_fv = FeatureView(
+    name="movie_features",
+    entities=[movie],
+    ttl=timedelta(days=365),
+    schema=[
+        Field(name="movie_avg_rating", dtype=Float32),
+        Field(name="movie_rating_count", dtype=Int64),
     ],
     source=ratings_source,
 )
